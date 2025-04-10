@@ -297,8 +297,43 @@ li a
     height: 80px;
     background-color: rgb(94, 92, 92);
 }
-.details-of-show p
+.showdetails
 {
     background-color:  rgb(56, 55, 55);
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    line-height: 13px;
+    height: 500px;
+}
+.p1
+{
+    color: gray;
+    font-size: 15px;
+}
+.p2
+{
+    color: gray;
+    font-size: 12px;
+}
+.showdetails p
+{
+    margin-left: 30px;
+}
+#logo-ft p
+{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 45px;
+}   
+.med
+{
+    display: flex;
+    justify-content: space-around;
+}
+.med li
+{
+    list-style-type: none;
 }
