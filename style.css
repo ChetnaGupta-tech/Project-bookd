@@ -373,3 +373,14 @@ li a
     align-items: center;
     font-size: 20px;
 }
+.login-reg
+{
+    height: 700px;
+    border: 2px solid rgb(202, 199, 199);
+    box-shadow: 5px 7px 5px gray;
+    margin: 50px;
+    padding: 150px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
