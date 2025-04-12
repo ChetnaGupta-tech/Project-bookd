@@ -564,6 +564,7 @@ li a
     justify-self: center;
     padding: 3px;
     padding-left: 15px;
+    background-color: rgb(247, 190, 190);
 }
 .user-rev
 {
@@ -578,4 +579,5 @@ li a
     margin-top: 25px;
     padding: 10px;
     font-weight: 600;
+    background-color: rgb(247, 190, 190);
 }
