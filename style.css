@@ -136,7 +136,7 @@ li a
 {
     /*border: 1px solid gray;*/
     border-radius: 5px;
-    height: 340px;
+    height: 350px;
     width: 250px;
     /* background-image: url(images/movie4.avif); */
     background-size: cover;
@@ -145,7 +145,7 @@ li a
 {
     /*border: 1px solid blue;*/
     border-radius: 5px;
-    height: 340px;
+    height: 350px;
     width: 250px;
     /* background-image: url(images/movie.avif); */
     background-size: cover;
@@ -165,13 +165,25 @@ li a
     width: 100%;
     /*border: 1px solid black;*/
 }
+.event img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    align-self: center;
+    /*border: 1px solid black;*/
+    margin-bottom: 25px;
+}
 .event1
 {
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
     border-radius: 5px;
     height: 250px;
     width: 250px;
-    background-image: url(images/event1.avif);
+    /* background-image: url(images/event1.avif); */
     background-size: cover;
 }
 .event2
@@ -337,6 +349,11 @@ footer
     /*border: 2px solid black;*/
     line-height: 13px;
     height: 500px;
+    padding-top: 15px;
+}
+.detailsofshow
+{
+    padding: 10px;
 }
 .p1
 {
@@ -617,12 +634,14 @@ footer
     width: 20%;
     background-color: rgb(245, 118, 118);
     margin-left: 10px;
+    border-radius: 5px;
 }
 .filtertitle
 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 19px;
+    margin-left: 10px;
 }
 .languages
 {
