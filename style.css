@@ -694,3 +694,34 @@ footer
 {
     height: 300px;
 }
+/* contact today styles */
+/* .card
+{
+    height: 200px;
+    width: 150px;
+} */
+.card {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    max-height: 100px;
+    object-fit: contain;
+  }
+  .host p
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+  .showbook
+  {
+    background-color: rgb(241, 112, 112);   
+    margin-left: 600px;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
