@@ -724,4 +724,31 @@ footer
     color: white;
     box-shadow: 2px 2px 4px gray;
   }
+  .showbook a{
+    text-decoration: none;
+    color: white;
+  }
+  /* list your show login */
+  .diy
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .description
+  {
+    border: 2px solid red;
+    height: 600px;
+    width: 100%;
+  }
+  .listshowform
+  {
+    border: 2px solid green;
+    height: 600px;
+    width: 100%;
+  }
+  .listshowform form
+  {
+    /* margin-top: 150px;
+    margin-left: 50px; */
+  }
   
