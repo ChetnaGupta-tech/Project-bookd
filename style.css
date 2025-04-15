@@ -348,8 +348,13 @@ footer
     background-color:  rgb(56, 55, 55);
     /*border: 2px solid black;*/
     line-height: 13px;
-    height: 500px;
+    height: 350px;
     padding-top: 15px;
+    display: grid;
+}
+.showdetails li
+{
+    display: block;
 }
 .detailsofshow
 {
@@ -358,12 +363,12 @@ footer
 .p1
 {
     color: gray;
-    font-size: 15px;
+    font-size: 16px;
 }
 .p2
 {
     color: gray;
-    font-size: 12px;
+    font-size: 13px;
 }
 .showdetails p
 {
