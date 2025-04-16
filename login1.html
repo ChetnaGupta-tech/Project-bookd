@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bookd!-Where Every Event Finds Its Stage.</title>
+    <title>bookd! | Login</title>
     <link rel="icon" type="image/x-icon" href="images/icon.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <style>
+        .logg
+        {
+            display: flex;
+            margin-left: 430px;
+            margin-right: 480px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 4px gray;
+        }
+        .ima
+        {
+            /* border: 2px solid red; */
+            width: 100%;
+        }
+        .logform
+        {
+            /* border: 2px solid green; */
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .logform p
+        {
+            background-color: rgb(241, 112, 112);
+            /* width: 30%; */
+            margin-left: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .logform button
+        {
+            margin-left:60px ;
+            background-color: rgb(199, 52, 52);
+            padding: 0px 5px 0px 5px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px gray;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,10 +71,10 @@
                     <a href="movies.html">Movies</a>
                 </li>
                  <li>
-                       <a href="events.html">Events</a>
+                       <a href="">Events</a>
                 </li>
                 <li>
-                    <a href="login1.html">Login</a>
+                    <a href="register.html">Register</a>
                 </li>
                   
             </div>
@@ -59,113 +101,24 @@
             </div>
             </ul>
         </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/carousel1.avif" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel2.avif" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel3.avif" class="d-block w-100" alt="...">
-              </div>
+        </header>
+        <main>
+            <div class="logg">
+                <div class="ima">
+                    <img src="images/login_left.jpg" alt="">
+                </div>
+                <div class="logform">
+                    <form action="" method="get">
+                        <p>Login</p>
+                        <label for="uname">Username:</label><br>
+                        <input type="text" id="uname"><br>
+                        <label for="pass">Password:</label><br>
+                        <input type="password" id="pass"><br>
+                        <input type="checkbox">Remember Me <br>
+                        <button>Login</button>
+                    </form>
+                </div>
             </div>
-          
-             <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div> 
-          
-    </header>
-    <main>
-        <div class="recommended-movies">
-            <div class="label">
-                <p>Recommended Movies</p>
-            </div>
-        </div>
-        <div class="movies">
-            <div class="item1">
-                <a href="amateur.html"><img src="images/movie1.avif" alt=""></a>
-                <a href="amateur.html">
-                    <p>The Amateur</p>
-                </a>
-            </div>
-            <div class="item2">
-                <a href="jaat.html"><img src="images/movie2.avif" alt=""></a>
-                <a href="jaat.html">
-                    <p>Jaat</p>
-                </a>
-            </div>
-            <div class="item3">
-                <a href="sikandar.html"><img src="images/movie3.avif" alt=""></a>
-                <a href="sikandar.html">
-                    <p>Sikandar</p>
-                </a>
-            </div>
-            <div class="item4">
-                <a href="minecraft.html"><img src="images/movie4.avif" alt=""></a>
-                <a href="minecraft.html">
-                    <p>Minecraft Movie</p>
-                </a>
-            </div>
-            <div class="item5">
-                <a href="GBU.html"><img src="images/movie.avif" alt=""></a>
-                <a href="GBU.html">
-                    <p>Good Bad Ugly</p>
-                </a> 
-            </div>
-        </div>
-        <div class="stream">
-            <img src="images/stream.avif" alt="">
-        </div>
-        <div class="recommended-movies">
-            <div class="label">
-                <p>The best of Live Events</p>
-            </div>
-        </div>
-        <div class="event">
-            <div class="event1">
-                <a href="events.html"><img src="images/event1.avif" alt=""></a>
-            </div>
-            <div class="event2">
-                <a href="amusement.html"><img src="images/event2.avif" alt=""></a>
-            </div>
-            <div class="event3">
-                <a href="theatre.html"><img src="images/event3.avif" alt=""></a>
-            </div>
-            <div class="event4">
-                <a href="kids.html"><img src="images/event4.avif" alt=""></a>
-            </div>
-            <div class="event5">
-                <a href="adventure.html"><img src="images/event5.avif" alt=""></a>
-            </div>
-        </div>
-        <div class="premiere">
-            <div class="label-pre">
-                <p>PREMIERE</p>
-                <h6>Watch new movies at home, every Friday</h6>
-            </div>
-            <div class="recommended-movies">
-                <!-- <div class="label">
-                    <p >Premieres</p>
-                    <h6>Brand New Releases every Friday</h6>
-                </div> -->
-            </div>
-            <div class="prem">
-                <div class="prem1"></div>
-                <div class="prem2"></div>
-                <div class="prem3"></div>
-                <div class="prem4"></div>
-                <div class="prem5"></div>
-            </div>
-        </div>
     </main>
     <footer>
         <div class="list-your-show">
@@ -173,7 +126,7 @@
                 <div class="show-items">
                     <li>List your Show</li>
                     <li>Got a show, event, activity or a great experience? Partner with us & get listed on bookd!</li>
-                    <li><button id="cont-today"><a href="contacttoday.html">Contact Today</a></button></li>
+                    <li><button id="cont-today">Contact Today</button></li>
                 </div>
             </ul>
         </div>
@@ -225,32 +178,6 @@
                     <li>Thriller Movies</li>
                 </ul>
             </div>
-                <!-- <p class="p2">Drama Movies | Action Movies | Comedy Movies | Thriller Movies | Sports Movies | Adventure Movies | Romantic Movies | Family Movies | Sci-Fi Movies </p> -->
-                <div class="col">
-                <p class="p1">HELP</p>
-                <ul class="p2">
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Privacy Policy</li>
-                    <li>FAQ</li>
-                    <li>Terms nd Conditions</li>
-                    </ul> 
-                </div>
-            </div>
-        <!-- <div class="showdetails">
-            <div class="details-of-shows">
-                <p class="p1">MOVIES NOW SHOWING IN MUMBAI</p>
-                <p class="p2">Jaat | Sikandar | The Amateur | A Minecraft Movie |Good Bad Ugly | Ashi hi Jamva Jamvi | Akaal | The Diplomat | Chaava | Dog Man</p>
-                <p class="p1">UPCOMING MOVIES IN MUMBAI</p>
-                <p class="p2">Phule | Ajira Rebti | Striyon | Dustbin | Kousalya Tanaya Ragava | Puratawn-The Ancient | Pade Akasha | Cherasalaa | Agnathyavaasi | Akkada Ammayi Ikkada Abbayi </p>
-                <p class="p1">MOVIES BY GENRE</p>
-                <p class="p2">Drama Movies | Action Movies | Comedy Movies | Thriller Movies | Sports Movies | Adventure Movies | Romantic Movies | Family Movies | Sci-Fi Movies </p>
-                <p class="p1">MOVIES BY LANGUAGE</p>
-                <p class="p2">English | Hindi | Gujarati | Marathi | Malayalam | Tamil | Sindhi | Telugu | Kannada</p>
-                <p class="p1">SPORTS EVENTS IN MUMBAI</p>
-                <p class="p2">Running | Cricket | Chess | Cycling | MMA | Walking | Motorsports | Sailing | Horse Race | Shooting</p>
-                <p class="p1">HELP</p>
-                <p class="p2">About Us | Contact Us | Current Opening | Press Release | Press Coverage | Sitemap | FAQ | Terms nd Conditions | Privacy Policy</p> -->
                 <div id="logo-ft">
                     <p>bookd!</p>
             </div>
@@ -283,7 +210,6 @@
                 <p>Copyright @ 2025 Smalltree Entertainment Pvt Ltd</p>
             </div>
         </div>
-
     </footer>
 </body>
 </html>
