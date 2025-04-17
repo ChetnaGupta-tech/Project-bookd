@@ -254,45 +254,45 @@ li a
 {
     /*border: 1px solid red;*/
     border-radius: 5px;
-    height: 340px;
+    height: 25px;
     width: 250px;
-    background-image: url(images/prem1.avif);
+    /* background-image: url(images/prem1.avif); */
     background-size: cover;
 }
 .prem2
 {
     /*border: 1px solid green;*/
     border-radius: 5px;
-    height: 340px;
+    height: 250px;
     width: 250px;
-    background-image: url(images/prem2.avif);
+    /* background-image: url(images/prem2.avif); */
     background-size: cover;
 }
 .prem3
 {
     /*border: 1px solid orange;*/
     border-radius: 5px;
-    height: 340px;
+    height: 250px;
     width: 250px;
-    background-image: url(images/prem3.avif);
+    /* background-image: url(images/prem3.avif); */
     background-size: cover;
 }
 .prem4
 {
     /*border: 1px solid gray;*/
     border-radius: 5px;
-    height: 340px;
+    height: 325px;
     width: 250px;
-    background-image: url(images/prem4.avif);
+    /* background-image: url(images/prem4.avif); */
     background-size: cover;
 }
 .prem5
 {
     /*border: 1px solid blue;*/
     border-radius: 5px;
-    height: 340px;
+    height: 250px;
     width: 250px;
-    background-image: url(images/prem5.avif);
+    /* background-image: url(images/prem5.avif); */
     background-size: cover;
 }
 footer
