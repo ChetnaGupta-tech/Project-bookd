@@ -384,6 +384,11 @@ footer
     text-align: center;
     margin: 45px;
 }   
+#logo-ft a
+{
+    color: white;
+    text-decoration: none;
+}
 .med
 {
     display: flex;
