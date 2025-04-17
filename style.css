@@ -766,7 +766,7 @@ footer
     margin-left: 40px;
   }
   /* responsiveness */
-  @media(min-width:1080px)
+  @media screen and (max-width:1080px)
   {
     .nav-items
     {
@@ -774,7 +774,7 @@ footer
     flex-direction: row;
     justify-content: space-between ;
     align-items: center;
-    font-size: 10px;
+    font-size: 20px;
     background-color: rgb(241, 112, 112);
     height: 50px;
     border-radius: 2px;
