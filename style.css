@@ -765,3 +765,19 @@ footer
     margin-top: 100px;
     margin-left: 40px;
   }
+  /* responsiveness */
+  @media(min-width:1080px)
+  {
+    .nav-items
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 10px;
+    background-color: rgb(241, 112, 112);
+    height: 50px;
+    border-radius: 2px;
+
+    }
+  }
