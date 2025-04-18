@@ -224,7 +224,7 @@ li a
 }
 .premiere
 {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-color: #2B3148;
 }
@@ -247,7 +247,7 @@ li a
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 340px;
+    height: 300px;
     width: 100%;   
 }
 .prem1
@@ -710,7 +710,10 @@ footer
     height: 250px;
     width: 100%;
   }
-  
+  .card:hover
+  {
+    transition: width 2s, height 4s;
+  }
   .card-img-top {
     max-height: 100px;
     object-fit: contain;
@@ -770,6 +773,12 @@ footer
     margin-top: 100px;
     margin-left: 40px;
   }
+  /* contact us page */
+  .contact-header
+  {
+    height: 200px;
+    margin-bottom: 200px;
+  }
   /* responsiveness */
   @media screen and (max-width:1080px)
   {
@@ -784,5 +793,17 @@ footer
     height: 50px;
     border-radius: 2px;
 
+    }
+    .premiere
+    {
+        height: 400px;
+    }
+    .prem
+    {
+        margin-top: 20px;
+    }
+    .movies
+    {
+        height: 200px;
     }
   }
