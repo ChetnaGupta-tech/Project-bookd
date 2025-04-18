@@ -802,8 +802,16 @@ footer
     {
         margin-top: 20px;
     }
-    .movies
+    /* .movies
     {
         height: 200px;
+    } */
+    .poster
+    {
+        width: 100%;
+    }
+    .trailer
+    {
+        width: 100px;
     }
   }
