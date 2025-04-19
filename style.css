@@ -805,6 +805,32 @@ footer
     height: 200px;
     margin-bottom: 200px;
   }
+  /* event page interested */
+  .interested
+  {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 50vw;
+    height: 7vh;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  .thumb
+  {
+    color: green;
+    font-weight: 800;
+  }
+  .int-button button
+  {
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid red;
+   padding: 5px;
+    border-radius: 25px;
+    color: red;
+  }
   /* responsiveness */
   @media screen and (max-width:1080px)
   {
