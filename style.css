@@ -22,6 +22,32 @@
     height: 50px;
     border-radius: 2px;
 }
+.box
+{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    margin: 5px;
+    position: relative;
+    animation-name: navbaranimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 0;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+@keyframes navbaranimation {
+    form
+    {
+        top: 5px;
+        left: 0px;
+    }
+    to
+    {
+        top: 5px;
+        left: 300px;
+    }
+}
 li a
 {
     text-decoration: none;
