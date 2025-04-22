@@ -478,8 +478,9 @@ footer
 }
 .poster
 {
-    background-color:rgb(248, 111, 111);
+    /* background-color:rgb(248, 111, 111); */
     border-radius: 10px;
+    width: 100%;
 }
 .details
 {
@@ -537,7 +538,7 @@ footer
 }
 .about-the-movie
 {
-    margin-bottom: 90px;
+    margin-bottom: 90px; 
 }
 .about-the-movie p
 {
@@ -839,6 +840,10 @@ footer
   /* responsiveness */
   @media screen and (max-width:1080px)
   {
+    *
+    {
+        margin-left: 2px;
+    }
     .nav-items
     {
     display: flex;
@@ -867,8 +872,43 @@ footer
     {
         width: 100%;
     }
-    .trailer
+    .trailer iframe
     {
-        width: 100px;
+        width: 400px;
+    }
+    .details
+    {
+        width: 300px;
+        height: 320px;
+    }
+    .details p
+    {
+        font-size: 15px;
+    }
+    .rating
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .rev-hash
+    {
+        visibility: hidden;
+    }
+    .user-rev
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        margin-bottom: 8px;
+    }
+    #title-rev
+    {
+        text-align: center;
+        margin-left: -10px;
+    }
+    .rev-1, .rev-2, .rev-3
+    {
+        width: 100%;
     }
   }
