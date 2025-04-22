@@ -842,6 +842,55 @@ footer
     background-color: rgb(214, 82, 82); 
     color: white;
   }
+  .contactimg img
+  {
+    height: 300px;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+  }
+  .bg-text {
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(0,0,0, 0.2); /*Black w/opacity/see-through*/
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .form-to-contact
+  {
+    /* border: 2px solid green; */
+  }
+  .form-to-contact form
+  {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .form-to-contact input, select
+  {
+    width: 300px;
+  }
+  .form-to-contact ::placeholder
+  {
+    text-align: center;
+    color: grey;
+  }
+  .cont-details
+  {
+    /* border: 2px solid red; */
+  }
+  .subut
+  {
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   /* responsiveness */
   @media screen and (max-width:1080px)
   {
