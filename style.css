@@ -391,9 +391,14 @@ footer
 {
     display: block;
 }
-.detailsofshow
+.details-of-show
 {
     padding: 10px;
+    margin-left: 15px;
+}
+.movie-foot
+{
+    margin-left: 70px;
 }
 .p1
 {
@@ -914,6 +919,14 @@ footer
     font-size: 20px;
     text-decoration: underline;
   }
+.mob-footer
+{
+    visibility: hidden;
+}
+footer
+{
+    margin-bottom: -100px;
+}
   /* responsiveness */
   @media screen and (max-width:1080px)
   {
@@ -933,9 +946,23 @@ footer
     border-radius: 2px;
 
     }
+    .nav-items li
+    {
+        visibility: hidden;
+    }
+    #logo
+    {
+        visibility: visible;
+    }
+    .nav-items input 
+    {
+        visibility: visible;
+        margin-left: 70px;
+    }
     .premiere
     {
         height: 400px;
+        margin-bottom: -450px;
     }
     .prem
     {
@@ -999,5 +1026,18 @@ footer
     .popular-cities, .location
     {
         visibility: collapse;
+    }
+    footer
+    {
+        visibility: hidden;
+    }
+    .mob-footer
+    {
+        visibility: visible;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: -900px; */
     }
   }
